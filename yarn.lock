@@ -7812,9 +7812,9 @@ path-type@^1.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
-paypal-checkout@^4.0.223:
-  version "4.0.223"
-  resolved "https://registry.yarnpkg.com/paypal-checkout/-/paypal-checkout-4.0.223.tgz#bf9d2bd7c521043a3df69aefe5222f0139702bde"
+paypal-checkout@^4.0.229:
+  version "4.0.229"
+  resolved "https://registry.yarnpkg.com/paypal-checkout/-/paypal-checkout-4.0.229.tgz#641312316004bc404f31a899e316e3e54842f7e1"
   dependencies:
     Base64 "^1.0.0"
     beaver-logger "^3.0.6"
