@@ -3083,11 +3083,12 @@ elliptic@^6.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
-ember-ajax@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/ember-ajax/-/ember-ajax-3.1.0.tgz#3db36e67357ef447639517656aeac4bb13e73a9c"
+ember-ajax@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/ember-ajax/-/ember-ajax-3.1.2.tgz#32e4c906835ea74aa5a8a24d9abf5b1576fd70aa"
   dependencies:
-    ember-cli-babel "^6.6.0"
+    ember-cli-babel "^6.16.0"
+    najax "^1.0.3"
 
 ember-app-scheduler@^1.0.1:
   version "1.0.1"
@@ -7284,6 +7285,14 @@ najax@^1.0.2:
     lodash.defaultsdeep "^4.6.0"
     qs "^6.2.0"
 
+najax@^1.0.3:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/najax/-/najax-1.0.4.tgz#63fd8dbf15d18f24dc895b3a16fec66c136b8084"
+  dependencies:
+    jquery-deferred "^0.3.0"
+    lodash.defaultsdeep "^4.6.0"
+    qs "^6.2.0"
+
 nan@^2.10.0, nan@^2.3.0:
   version "2.10.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.10.0.tgz#96d0cd610ebd58d4b4de9cc0c6828cda99c7548f"
@@ -7812,9 +7821,9 @@ path-type@^1.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
-paypal-checkout@^4.0.223:
-  version "4.0.223"
-  resolved "https://registry.yarnpkg.com/paypal-checkout/-/paypal-checkout-4.0.223.tgz#bf9d2bd7c521043a3df69aefe5222f0139702bde"
+paypal-checkout@^4.0.231:
+  version "4.0.231"
+  resolved "https://registry.yarnpkg.com/paypal-checkout/-/paypal-checkout-4.0.231.tgz#626b978f6062db44f1d69f48eac64fe7d8f302a4"
   dependencies:
     Base64 "^1.0.0"
     beaver-logger "^3.0.6"
@@ -7822,8 +7831,8 @@ paypal-checkout@^4.0.223:
     cross-domain-utils "^2.0.1"
     hi-base32 "^0.5.0"
     post-robot "^8.0.0"
-    xcomponent "^6.0.0"
     zalgo-promise "^1.0.10"
+    zoid "^6.0.66"
 
 pbkdf2-compat@2.0.1:
   version "2.0.1"
@@ -9959,17 +9968,6 @@ ws@~3.3.1:
     safe-buffer "~5.1.0"
     ultron "~1.1.0"
 
-xcomponent@^6.0.0:
-  version "6.0.62"
-  resolved "https://registry.yarnpkg.com/xcomponent/-/xcomponent-6.0.62.tgz#7665a4c466d96bd75a405b57adef4bccb1a93d00"
-  dependencies:
-    beaver-logger "^3.0.11"
-    cross-domain-safe-weakmap "^1.0.19"
-    cross-domain-utils "^2.0.3"
-    hi-base32 "^0.5.0"
-    post-robot "^8.0.14"
-    zalgo-promise "^1.0.22"
-
 xdg-basedir@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-3.0.0.tgz#496b2cc109eca8dbacfe2dc72b603c17c5870ad4"
@@ -10099,3 +10097,14 @@ yetch@^0.0.1:
 zalgo-promise@^1.0.10, zalgo-promise@^1.0.11, zalgo-promise@^1.0.22, zalgo-promise@^1.0.26, zalgo-promise@^1.0.3:
   version "1.0.28"
   resolved "https://registry.yarnpkg.com/zalgo-promise/-/zalgo-promise-1.0.28.tgz#d21b31c060fbb159af9d48f0e67dd31ce4091b33"
+
+zoid@^6.0.66:
+  version "6.0.66"
+  resolved "https://registry.yarnpkg.com/zoid/-/zoid-6.0.66.tgz#26c4db0a8ebe8e53db9350ac75b848fae2cd942f"
+  dependencies:
+    beaver-logger "^3.0.11"
+    cross-domain-safe-weakmap "^1.0.19"
+    cross-domain-utils "^2.0.3"
+    hi-base32 "^0.5.0"
+    post-robot "^8.0.14"
+    zalgo-promise "^1.0.22"
