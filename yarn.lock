@@ -3732,7 +3732,7 @@ ember-cli-autoprefixer@0.8.1:
     broccoli-autoprefixer "^5.0.0"
     lodash "^4.0.0"
 
-ember-cli-babel@6.12.0, ember-cli-babel@^5.0.0, ember-cli-babel@^5.1.5, ember-cli-babel@^5.1.6, ember-cli-babel@^5.1.7, ember-cli-babel@^5.2.4, ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.1.0, ember-cli-babel@^6.10.0, ember-cli-babel@^6.11.0, ember-cli-babel@^6.14.1, ember-cli-babel@^6.16.0, ember-cli-babel@^6.3.0, ember-cli-babel@^6.6.0, ember-cli-babel@^6.7.2, ember-cli-babel@^6.8.0, ember-cli-babel@^6.8.1, ember-cli-babel@^6.8.2, ember-cli-babel@^6.9.0, ember-cli-babel@^7.0.0, ember-cli-babel@^7.1.0, ember-cli-babel@^7.1.2:
+ember-cli-babel@6.12.0, ember-cli-babel@^5.0.0, ember-cli-babel@^5.1.5, ember-cli-babel@^5.1.6, ember-cli-babel@^5.1.7, ember-cli-babel@^5.2.4, ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.1.0, ember-cli-babel@^6.10.0, ember-cli-babel@^6.11.0, ember-cli-babel@^6.14.1, ember-cli-babel@^6.16.0, ember-cli-babel@^6.17.2, ember-cli-babel@^6.3.0, ember-cli-babel@^6.6.0, ember-cli-babel@^6.7.2, ember-cli-babel@^6.8.0, ember-cli-babel@^6.8.1, ember-cli-babel@^6.8.2, ember-cli-babel@^6.9.0, ember-cli-babel@^7.0.0, ember-cli-babel@^7.1.0, ember-cli-babel@^7.1.2:
   version "6.14.1"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-6.14.1.tgz#796339229035910b625593caffbc2683792ada68"
   dependencies:
@@ -4649,11 +4649,11 @@ ember-metrics@^0.12.1:
     ember-getowner-polyfill "^2.0.0"
     ember-runtime-enumerable-includes-polyfill "^2.0.0"
 
-ember-models-table@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/ember-models-table/-/ember-models-table-2.5.0.tgz#4f50bdf0834b58493a78c89dbe5e95c6f16ab33e"
+ember-models-table@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/ember-models-table/-/ember-models-table-2.8.0.tgz#59655df73ceb9edced4b6c814fc4f0454bc8ea83"
   dependencies:
-    ember-cli-babel "^6.8.1"
+    ember-cli-babel "^6.17.2"
     ember-cli-htmlbars "^2.0.1"
     ember-composable-helpers "^2.0.3"
 
