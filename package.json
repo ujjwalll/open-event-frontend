@@ -82,7 +82,7 @@
     "ember-math-helpers": "^2.5.0",
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-metrics": "^0.12.1",
-    "ember-models-table": "^2.5.0",
+    "ember-models-table": "2.7.0",
     "ember-moment": "^7.7.0",
     "ember-notify": "^5.2.1",
     "ember-resolver": "^5.0.0",
