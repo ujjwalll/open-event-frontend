@@ -4703,7 +4703,7 @@ ember-load-initializers@^2.0.0:
   dependencies:
     ember-cli-babel "^7.0.0"
 
-ember-lodash@^4.17.3, ember-lodash@^4.17.5:
+ember-lodash@^4.17.3:
   version "4.18.0"
   resolved "https://registry.yarnpkg.com/ember-lodash/-/ember-lodash-4.18.0.tgz#45de700d6a4f68f1cd62888d90b50aa6477b9a83"
   dependencies:
@@ -4712,6 +4712,17 @@ ember-lodash@^4.17.3, ember-lodash@^4.17.5:
     broccoli-merge-trees "^2.0.0"
     broccoli-string-replace "^0.1.1"
     ember-cli-babel "^6.10.0"
+    lodash-es "^4.17.4"
+
+ember-lodash@^4.19.3:
+  version "4.19.3"
+  resolved "https://registry.yarnpkg.com/ember-lodash/-/ember-lodash-4.19.3.tgz#d0d3c7c1cc5596b0939049aa436a1aaac4c3860e"
+  dependencies:
+    broccoli-debug "^0.6.1"
+    broccoli-funnel "^2.0.1"
+    broccoli-merge-trees "^2.0.0"
+    broccoli-string-replace "^0.1.1"
+    ember-cli-babel "^7.0.0"
     lodash-es "^4.17.4"
 
 ember-macro-helpers@^0.17.0:
